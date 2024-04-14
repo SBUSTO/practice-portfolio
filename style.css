@@ -1,5 +1,7 @@
 :root {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightgrey;
+    background: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg') center center no-repeat;
 }
 
 html {
@@ -10,6 +12,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 ul {
@@ -27,6 +30,7 @@ a:hover {
 
 body {
     font-family: var(--font-family);
+    
 }
 
 nav {
@@ -38,8 +42,9 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
-    background-color: var(#dfdfde);
+    background-color: #0052d7;
     box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+    color: white;
 }
 
 nav h1 {
@@ -47,12 +52,12 @@ nav h1 {
 }
 
 nav a {
-color: var(#8caba8);
+color: white;
 transition: var(--transition);
 }
 
 nav a:hover {
-    color: var(#a2798f);
+    color: black;
     border-bottom: 2px solid var(#a2798f);
 }
 
@@ -84,8 +89,8 @@ nav ul li {
   }
 
   .hero img {
-    height: 37.5rem;
-    width: 37.5;
+    height: 30rem;
+    width: 30.5;
   }
 
   .bio {
@@ -100,11 +105,22 @@ nav ul li {
     padding: 0.3rem 0;
   }
 
+  .about {
+background-color: rgba(48, 45, 255, 0.531);
+color: white;
+text-align: center;
+margin: 2rem;
+padding: 1rem;
+line-height: 1.7rem;
+width: 100%;
+  }
+
   .skills {
 max-width: 68.75rem;
 margin: auto;
 text-align: center;
 margin-top: 2.5rem;
+color: white;
   }
 
   .skill-header {
@@ -183,6 +199,7 @@ margin-top: 2.5rem;
   .contact h2 {
     text-align: center;
     margin-bottom: var(--bottom-margin-2);
+    color: white;
   }
 
   .contact-form-container {
@@ -190,7 +207,8 @@ margin-top: 2.5rem;
     margin: 0 auto;
     padding: 0.938rem;
     border-radius: rpx;
-    box-shadow: 0 3px 10px var(--secondary-shadow);
+    box-shadow: 0 3px 10px var(black);
+    color: white;
   }
 
   .contact-form-container label {
@@ -242,20 +260,22 @@ cursor: pointer;
         display: flex;
         flex-direction: column;
         position: fixed;
-        right: 1%;
+        left: 1%;
         bottom: 50%;
       }
       
       .socicon {
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
       }
 
 footer {
-    background-color: var(--bg-color);
-    padding: 1.25rem;
+    background-color: rgba(99, 99, 99, 0.1);
+    padding: 0;
     text-align: center;
-    margin: 2rem 0 0;
+    position: absolute;
+    margin: 0;
+    width: 100%;
 }
   
   .scroll-up {
@@ -270,4 +290,6 @@ footer {
     height: 3rem;
   }
 
-  
+ h2 {
+    color: white;
+ }
